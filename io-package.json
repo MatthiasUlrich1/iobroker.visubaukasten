@@ -1,0 +1,88 @@
+{
+	"common": {
+		"name": "visubaukasten",
+		"version": "0.0.1",
+		"news": {
+			"0.0.1": {
+				"en": "initial release",
+				"de": "Erstveröffentlichung",
+				"ru": "Начальная версия",
+				"pt": "lançamento inicial",
+				"nl": "Eerste uitgave",
+				"fr": "Première version",
+				"it": "Versione iniziale",
+				"es": "Versión inicial",
+				"pl": "Pierwsze wydanie",
+				"uk": "Початкова версія",
+				"zh-cn": "首次出版"
+			}
+		},
+		"titleLang": {
+			"en": "visubaukasten",
+			"de": "Visubaukasten",
+			"ru": "Висубаукастен",
+			"pt": "Visubaukasten",
+			"nl": "visubaukasten",
+			"fr": "visubaukasten",
+			"it": "Visubaukasten",
+			"es": "Visubaukasten",
+			"pl": "Visubukasten",
+			"uk": "Visubaukasten",
+			"zh-cn": "Visubaukasten"
+		},
+		"desc": {
+			"en": "Dieser Adapter installiert alle notwendigen Adapter für den Visu und Scriptbaukasten von My Smart Home Support",
+			"de": "Derser -Adapter Installierer Alle Notwendigen Adapter für visu und scriptbaukasten von My Smart Home Support",
+			"ru": "Dieser Adapter Installiert all Notwendigen адаптер für den visu und scriptbaukasten von мой умный дом поддержка",
+			"pt": "Adaptador Dieser Installert Alle Notwendigen Adaptador für den visu und scriptbaukasten von meu suporte doméstico inteligente",
+			"nl": "Dieser Adapter Installieer Alle notwendigen adapter für den visu und scriptbaukasten von mijn smart home -ondersteuning",
+			"fr": "Adaptateur dieser installer alle notwendigen addapter für den visu und scripbaukasten von mon smart home support",
+			"it": "Adattatore Dieser Installiert Alle Adattatore Notwendigen Für Den Visu und Scriptbaukasten von My Smart Home Support",
+			"es": "Adaptador dieser Installiert Alle Notwendigen Adapter Für den Visu und scriptbaukasten von mi soporte inteligente en casa",
+			"pl": "Dieser Adapter Installer Instalert zarzut Notwendigen adapter für den visu und scriptbaukasten von My Smart Home Support",
+			"uk": "Дизерний адаптер Installiert alle notwendigen адаптер für den visu und scriptbaukasten von my smart Home підтримка",
+			"zh-cn": "dieser适配器installiert alet notwendigen适配器fürden visu und scriptbaukasten von my智能家庭支持"
+		},
+		"authors": [
+			"MatthiasUlrich1 <info@my-smart-home-support.de>"
+		],
+		"keywords": [
+			"visu VIS Baukasten Script"
+		],
+		"licenseInformation": {
+			"type": "free",
+			"license": "MIT"
+		},
+		"platform": "Javascript/Node.js",
+		"icon": "visubaukasten.png",
+		"enabled": true,
+		"extIcon": "https://raw.githubusercontent.com/MatthiasUlrich1/ioBroker.visubaukasten/main/admin/visubaukasten.png",
+		"readme": "https://github.com/MatthiasUlrich1/ioBroker.visubaukasten/blob/main/README.md",
+		"loglevel": "info",
+		"tier": 3,
+		"mode": "daemon",
+		"type": "visualization",
+		"compact": true,
+		"connectionType": "cloud",
+		"dataSource": "poll",
+		"adminUI": {
+			"config": "json"
+		},
+		"dependencies": [
+			{
+				"js-controller": ">=6.0.11"
+			}
+		],
+		"globalDependencies": [
+			{
+				"admin": "7.0.23"
+			}
+		]
+	},
+	"native": {
+		"option1": true,
+		"option2": "42"
+	},
+	"objects": [],
+	"instanceObjects": []
+}
