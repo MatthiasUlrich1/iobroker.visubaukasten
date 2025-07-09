@@ -2,9 +2,9 @@
 	"common": {
 		"name": "visubaukasten",
 		"version": "0.0.3",
-"install": {
-    "platform": true
-  }
+		"install": {
+ 		 "platform": true
+		},
 		"news": {
 			"0.0.3": {
 				"en": "initial release",
@@ -72,16 +72,15 @@
 			"config": "json"
 		},
 		"dependencies": {
-  "ioBroker.javascript": ">=9.0.7",
-  "iobroker.web": ">=7.0.8",
-  "ioBroker.vis": ">=1.5.6",
-  "ioBroker.trashschedule": ">=3.3.0",
-  "ioBroker.ical": ">=1.16.6",
-  "ioBroker.alias-manager": ">=2.0.0",
-  "ioBroker.vis-jqui-mfd": ">=1.0.12",
-  "ioBroker.vis-materialdesign": ">=1.7.2",
-  "ioBroker.vis-timeandweather": ">=1.2.2",
-  "js-controller": ">=6.0.11"
+  "javascript": ">=9.0.7",
+  "web": ">=7.0.8",
+  "vis": ">=1.5.6",
+  "trashschedule": ">=3.3.0",
+  "ical": ">=1.16.6",
+  "alias-manager": ">=2.0.0",
+  "vis-jqui-mfd": ">=1.0.12",
+  "vis-materialdesign": ">=1.7.2",
+  "vis-timeandweather": ">=1.2.2"
 }
 		,
 		"globalDependencies": [
