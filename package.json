@@ -24,10 +24,8 @@
     "url": "https://github.com/MatthiasUlrich1/ioBroker.visubaukasten/issues"
   },
   "engines": {
-    "node": ">=16.0.0"
+    "node": ">=20.0.0"
   },
-  "dependencies": {},
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"No tests specified\" && exit 0"
   }
