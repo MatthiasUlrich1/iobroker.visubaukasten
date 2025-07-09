@@ -68,9 +68,10 @@
 		"adminUI": {
 			"config": "json"
 		},
-		"dependencies": [
+		"dependencies": 
 			{
 				"ioBroker.javascript": ">=9.0.7",
+				"iobroker.web": ">=7.0.8",
 				"ioBroker.vis": ">=1.5.6",
 				"ioBroker.trashschedule": ">=3.3.0",
 				"ioBroker.ical": ">=1.16.6",
@@ -80,7 +81,7 @@
 				"ioBroker/ioBroker.vis-timeandweather": ">=1.2.2",
 				"js-controller": ">=6.0.11"
 			}
-		],
+		,
 		"globalDependencies": [
 			{
 				"admin": "7.0.23"
