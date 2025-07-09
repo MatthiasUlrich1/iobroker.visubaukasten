@@ -2,6 +2,9 @@
 	"common": {
 		"name": "visubaukasten",
 		"version": "0.0.3",
+"install": {
+    "platform": true
+  }
 		"news": {
 			"0.0.3": {
 				"en": "initial release",
@@ -75,7 +78,7 @@
   "ioBroker.trashschedule": ">=3.3.0",
   "ioBroker.ical": ">=1.16.6",
   "ioBroker.alias-manager": ">=2.0.0",
-  "vis-jqui-mfd": ">=1.0.12",
+  "ioBroker.vis-jqui-mfd": ">=1.0.12",
   "ioBroker.vis-materialdesign": ">=1.7.2",
   "ioBroker.vis-timeandweather": ">=1.2.2",
   "js-controller": ">=6.0.11"
