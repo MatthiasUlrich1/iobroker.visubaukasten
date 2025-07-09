@@ -1,9 +1,9 @@
 {
 	"common": {
 		"name": "visubaukasten",
-		"version": "0.0.1",
+		"version": "0.0.2",
 		"news": {
-			"0.0.1": {
+			"0.0.2": {
 				"en": "initial release",
 				"de": "Erstveröffentlichung",
 				"ru": "Начальная версия",
@@ -70,14 +70,14 @@
 		},
 		"dependencies": [
 			{
-				"ioBroker.javascript": ">=9.0.7"
-				"ioBroker.vis": ">=1.5.6"
-				"ioBroker.trashschedule": ">=3.3.0"
-				"ioBroker.ical": ">=1.16.6"
-				"ioBroker.alias-manager": ">=2.0.0"
-				"ioBroker.vis-jqui-mfd": ">=1.0.12"
-				"ioBroker.vis-materialdesign": ">=1.7.2"
-				"ioBroker/ioBroker.vis-timeandweather": ">=1.2.2"
+				"ioBroker.javascript": ">=9.0.7",
+				"ioBroker.vis": ">=1.5.6",
+				"ioBroker.trashschedule": ">=3.3.0",
+				"ioBroker.ical": ">=1.16.6",
+				"ioBroker.alias-manager": ">=2.0.0",
+				"ioBroker.vis-jqui-mfd": ">=1.0.12",
+				"ioBroker.vis-materialdesign": ">=1.7.2",
+				"ioBroker/ioBroker.vis-timeandweather": ">=1.2.2",
 				"js-controller": ">=6.0.11"
 			}
 		],
